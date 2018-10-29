@@ -12,11 +12,6 @@ import org.springframework.stereotype.Component;
  * \* Time: 10:53
  * \* To change this template use File | Settings | File Templates.
  * \* Description:在扫描包的范围内可以通过下面的方式
- * \ 在启动类上加入 @Import(value={SpringUtil.class})，就可以了
- * 或者在启动类内（也可以@Configuration类内）加入：
- *
- *        @Bean
- *        public SpringUtil springUtil2(){return new SpringUtil();}
  */
 
 @Component

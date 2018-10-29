@@ -15,6 +15,10 @@
         <module>scheduling</module>
         <module>get-bean-from-normal-class</module>
         <module>filter</module>
+        <module>unit-test</module>
+        <module>environment-aware</module>
+        <module>custom-properties</module>
+        <module>file-upload</module>
     </modules>
 
 

@@ -12,7 +12,8 @@ import org.springframework.stereotype.Component;
  * \* Time: 10:53
  * \* To change this template use File | Settings | File Templates.
  * \* Description:不在扫描包的范围内可以通过下面的方式
- * \
+ * \  @Import(value={SpringUtil.class})
+ * SpringUtil是不需要添加@Component注解
  */
 
 public class SpringUtils implements ApplicationContextAware {
