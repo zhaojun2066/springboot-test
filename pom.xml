@@ -19,6 +19,7 @@
         <module>environment-aware</module>
         <module>custom-properties</module>
         <module>file-upload</module>
+        <module>redis-session</module>
     </modules>
 
 
