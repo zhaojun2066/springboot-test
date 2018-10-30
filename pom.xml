@@ -21,6 +21,7 @@
         <module>file-upload</module>
         <module>redis-session</module>
         <module>mvc-unittest</module>
+        <module>recive-json</module>
     </modules>
 
 
