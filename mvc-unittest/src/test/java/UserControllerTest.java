@@ -53,11 +53,11 @@ public class UserControllerTest extends MockMvcResultMatchers {
 
         request = MockMvcRequestBuilders.post("/users/addUser")
                 .param("id","1")
-                .param("name","林峰")
+                .param("name","jufeng")
                 .param("age","20");
         mvc.perform(request).andExpect(status().isOk()).andExpect(content().string("success"));
         request = MockMvcRequestBuilders.get("/users/getUserList");
-        mvc.perform(request).andExpect(status().isOk()).andExpect(content().string("[{\"id\":1,\"name\":\"林峰\",\"age\":20}]"));
+        mvc.perform(request).andExpect(status().isOk()).andExpect(content().string("[{\"id\":1,\"name\":\"jufeng\",\"age\":20}]"));
 
 
 
