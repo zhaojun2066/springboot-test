@@ -22,6 +22,9 @@
         <module>redis-session</module>
         <module>mvc-unittest</module>
         <module>recive-json</module>
+        <module>dynamic-datasource</module>
+        <module>async-request</module>
+        <module>web-mvc-configurer</module>
     </modules>
 
 
