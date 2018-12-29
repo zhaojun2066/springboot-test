@@ -15,6 +15,7 @@
     return-json： 返回json
     scheduling： 定时任务
     web-mvc-configurer：  url请求拦截器、异步callable 拦截器、跨域、视图、异步线程池、返回json的配置
+    tomcat-config: : 修改内嵌tomcat 一些server 的配置参数，因为application.properties 内不能配置
 
 ### 改变包扫面路径
       @ComponentScan(basePackages={"cn.jufeng","org.jufeng"})
