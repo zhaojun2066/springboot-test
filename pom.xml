@@ -25,6 +25,7 @@
         <module>dynamic-datasource</module>
         <module>async-request</module>
         <module>web-mvc-configurer</module>
+        <module>tomcat-config</module>
     </modules>
 
 
