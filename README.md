@@ -1,5 +1,21 @@
 "# springboot-test"
 
+### 项目说明
+    async-request ： servlet3 异步支持
+    custom-properties： 自定义配置信息
+    dynamic-datasource： saas 动态切库
+    environment-aware： 读取aplication.properties
+    file-upload： 文件上传
+    filter： filter config
+    get-bean-from-normal-class： 在bean中获取上下文
+    global-exception： controller 全局异常拦截
+    mvc-unittest： mvc test
+    recive-json： 接受json @RequestBody
+    redis-session: redis 共享session
+    return-json： 返回json
+    scheduling： 定时任务
+    web-mvc-configurer：  url请求拦截器、异步callable 拦截器、跨域、视图、异步线程池、返回json的配置
+
 ### 改变包扫面路径
       @ComponentScan(basePackages={"cn.jufeng","org.jufeng"})
 ### 加载xml
